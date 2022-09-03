@@ -21,11 +21,11 @@ for (let button of buttons) {
 submitButton.addEventListener("click", showStats)
 
 function showStats(){
-    if (actualRating===-1) {
-        alert("Please select a rating")
+    if (actualRating ===-1){
     } else {
         ratingSection.style.display="none";
         statsSection.style.display="flex";
         ratingPara.textContent="You selected " + actualRating + " out of 5"
     }
+    
 }
